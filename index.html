@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nam G. VU - Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #222;
+      background: #fff;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px 40px;
+    }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 18px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid #222;
+    }
+    .header-info h1 {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .header-info .title {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .header-info .contact {
+      font-size: 12px;
+      color: #333;
+      line-height: 1.6;
+    }
+    .header-photo img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* SECTIONS */
+    .section { margin-bottom: 18px; }
+    .section-title {
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1.5px solid #222;
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+    }
+
+    /* TWO-COLUMN LAYOUT FOR EXPERIENCE */
+    .exp-row {
+      display: flex;
+      margin-bottom: 14px;
+    }
+    .exp-date {
+      min-width: 160px;
+      max-width: 160px;
+      font-size: 12px;
+      color: #555;
+      padding-right: 14px;
+      padding-top: 1px;
+    }
+    .exp-detail { flex: 1; }
+    .exp-detail .role {
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .exp-detail .company {
+      font-size: 12px;
+      color: #555;
+      margin-bottom: 4px;
+    }
+    .exp-detail p { margin-bottom: 4px; line-height: 1.5; }
+    .exp-detail ul { margin: 4px 0 4px 18px; }
+    .exp-detail ul li { margin-bottom: 2px; line-height: 1.5; }
+
+    /* EDU */
+    .edu-row {
+      display: flex;
+      margin-bottom: 8px;
+    }
+    .edu-date {
+      min-width: 160px;
+      max-width: 160px;
+      font-size: 12px;
+      color: #555;
+      padding-right: 14px;
+    }
+    .edu-detail { flex: 1; }
+    .edu-detail strong { font-size: 13px; }
+
+    /* SKILLS */
+    .skills-row {
+      display: flex;
+      margin-bottom: 8px;
+    }
+    .skills-label {
+      min-width: 160px;
+      max-width: 160px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #333;
+      padding-right: 14px;
+    }
+    .skills-detail { flex: 1; line-height: 1.6; }
+
+    /* CERTS */
+    .cert-list { padding-left: 22px; }
+    .cert-list li { margin-bottom: 4px; line-height: 1.5; }
+
+    b { font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-info">
+      <h1>Nam G. VU</h1>
+      <div class="title">Senior Full-Stack Engineer &nbsp;|&nbsp; AI-Augmented Developer</div>
+      <div class="contact">
+        namgivu@gmail.com &nbsp; +84 939 11 3993<br>
+        <a href="https://linkedin.com/in/namgivu">linkedin.com/in/namgivu</a> &nbsp;
+        <a href="https://github.com/namgivu">github.com/namgivu</a> &nbsp;
+        <a href="https://gitlab.com/namgivu">gitlab.com/namgivu</a> &nbsp;
+        <a href="https://stackoverflow.com/users/nam-g-vu">stackoverflow nam-g-vu</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAREER OBJECTIVE -->
+  <div class="section">
+    <div class="section-title">Career Objective</div>
+    <p>Full-stack engineer with 10+ years building applications for startups &mdash; from REST API to ReactJs frontend to GCP cloud infrastructure.</p>
+    <p style="margin-top:6px;">In recent years I have embraced AI-augmented &ldquo;vibe coding&rdquo; workflows using JetBrains Junie AI Agent and Claude Code Agent to dramatically accelerate delivery. I thrive at clean backend code base, modern frontend engineering, and practical AI integration.</p>
+  </div>
+
+  <!-- WORKING EXPERIENCES -->
+  <div class="section">
+    <div class="section-title">Working Experiences</div>
+
+    <div class="exp-row">
+      <div class="exp-date">Jan 2024 &ndash; now</div>
+      <div class="exp-detail">
+        <div class="role">Reactjs + WordPress Fullstack, <em>freelancer</em></div>
+        <div class="company"><a href="https://jdicentral.com">jdicentral.com</a> &ndash; talent recruitment app</div>
+        <p>Maintain backend with <b>Express.js</b> REST on <b>MongoDB</b>; <b>JWT</b> auth; file upload + image processing with <b>Multer</b>; <b>Twilio</b> sms/email; <b>AWS SDK</b> for cloud storage. Maintain, update frontend with Reactjs with <b>Ant Design</b> and <b>Tailwind CSS</b>. Maintain, update landing page with <b>WordPress</b> + <b>MariaDB</b> dockerised CMS. Devops with <b>AWS</b> ec2 and lightsail with <b>NGINX</b> + <b>Certbot</b> for automated HTTPS domain cert.</p>
+        <br>
+        <div class="role">Python Fullstack, <em>freelancer</em></div>
+        <div class="company"><a href="https://accumulus.ai">accumulus.ai</a> &ndash; aviation app</div>
+        <p>Built the Atlas platform backend with <b>Python Falcon</b> + <b>Firebase</b>. Use <b>OpenAI API</b> finetune model in parsing NOTAM message in flight control. Devops with <b>GCP</b> Firestore + Cloud Storage + <b>Cloud Run</b>.</p>
+        <br>
+        <div class="company"><a href="https://techjdi.com">techjdi.com</a> &ndash; insect-monitor app</div>
+        <p>Build backend with <b>Flask</b> REST API + <b>PostgreSQL</b> + <b>SQLAlchemy</b> ORM; database migrations managed with <b>Alembic</b>; background task and cron scheduler via <b>Celery</b> + <b>Redis</b>. Devops with <b>AWS</b> lightsail and github CI/CD. Automation QA with Python Selenium.</p>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Oct 2021 &ndash; Dec 2023</div>
+      <div class="exp-detail">
+        <div class="role">Senior Python Fullstack, <em>freelancer</em></div>
+        <p>On-demand freelance services to startups in Singapore &ndash; building from scratch:</p>
+        <ul>
+          <li>Build <b>API app</b> with <b>Falcon+Flask</b> framework storing data using <b>Postgres</b>/Mysql/<b>Mongodb</b>, tested with <b>pytest</b> and <b>Postman</b> GUI client, deployed with <b>GCP Compute Engine</b> eg Ubuntu Server 20.04 instances</li>
+          <li>Build <b>web app</b> with <b>Flask</b> framework from sketch screens on <b>figma.com</b>; also co-op with ReactJs frontend teammate to request data from backend api endpoint</li>
+          <li>Automate testing the web app result with <b>python Selenium webdriver</b></li>
+          <li>Deploy api+web app and database to GCP cloud in both methods &ndash; direct run with <b>bash</b> command as <b>screen</b> session, container running from <b>docker-compose</b></li>
+          <li>Self-training in blockchain web3 Dapp stack &ndash; starting with Polygon/MATIC network</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Oct 2020 &ndash; Sep 2021</div>
+      <div class="exp-detail">
+        <div class="role">Python Backend+Devops+AutomateQA Engineer, <a href="https://referreach.com">referreach.com</a></div>
+        <p>Start from scratch with 1st-year of the startup as a single fullstack python engineer especially on <b>backend</b> for <b>RESTful</b> API based on python <b>Falcon</b> framework, <b>Postman</b> as API GUI tool &amp; documentation, <b>SqlAlchemy</b> as ORM, <b>Postgres</b> as database, and all under <b>Ubuntu 16.04</b>.</p>
+        <p>Capable of <b>deploying</b> the api app written in Python, web app written in Reactjs using <b>docker</b> and <b>nginx</b> config onto a Linux server in the cloud eg digigtalocean or googlecloud.</p>
+        <p>Can play <b>automation testing</b>/automate QA role so as to have the outcome well-tested and ensure any future changes made to the system stay solid and working &ndash; using the skillset of <b>python selenium</b>, and python unittest/<b>pytest</b>.</p>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Jan 2018 &ndash; Sep 2020</div>
+      <div class="exp-detail">
+        <div class="role">Python Backend+Devops Engineer, <a href="https://gigacover.com">gigacover.com</a></div>
+        <p>Python fullstack engineer main working to build RESTful API with python Falcon framework, Postgres/MongoDB as database, and Linux OS environment. Devops role to deploy applications to staging/uat/production environment using <b>computing instances</b> on <b>Google Cloud Platform</b> i.e. multiple frontend/backend web apps as <b>Reactjs deploy</b>, one central api app as <b>Falcon deploy</b>, database services as <b>postgres+mongodb deploy</b>, and a task queue service as <b>Celery deploy</b>.</p>
+        <p>The API to serve as <b>RESTful</b> api endpoints, then built into <b>Docker image tags</b>, set up webhook with <b>Docker Hub</b> for auto-deploy into cloud server instances. <b>Also integrate notification to slack</b> channel on new instance deploy status.</p>
+        <p>Automate web app testing to <b>build regression test suite</b> using <b>Python Selenium</b> alongside with <b>Katalon Studio</b> &ndash; also make it <b>multi-platform test-able</b> using <b>browserstack</b> automate-environment service i.e. remote webdriver pointed to chrome, safari, iPad, and Android screen etc.</p>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Sep 2017 &ndash; Jan 2018</div>
+      <div class="exp-detail">
+        <div class="role">Full-stack Developer, <a href="https://lazada.com">Lazada TechHub</a>, Lazada Vietnam</div>
+        <p>Develop &amp; maintain multiple backend applications in the massive e-commerce eco-system of Lazada. Technical skills: 1) back-end API with <b>Golang</b> under the company internal framework, 2) old API consumers written in both Golang &amp; PHP, and 3) develop new backend website(s) using <b>PHP Zend</b> 1 framework.</p>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Jul 2016 &ndash; Jul 2017</div>
+      <div class="exp-detail">
+        <div class="role">Python Full-stack Developer, <a href="https://autonomous.ai">autonomous.ai</a></div>
+        <ul>
+          <li>(Front-end) <b>Flask web</b> application</li>
+          <li>(Back-end) <b>Flask API</b> with <b>MySQL</b> and Postman</li>
+          <li>Utilize <b>AWS services</b> to deploy apps via EC2 as hosting server, Elastic IP as static IP, RDS as MySQL database server, S3 as public web assets, and ElasticCache as Redis cache. <b>AWS cost optimized</b> via IAM account and Cost Allocation Tag</li>
+          <li><b>Python</b> internal tool to deploy web app to AWS EC2</li>
+          <li>Automation testing via Python <b>Selenium</b> WebDriver and Python <b>Unittest</b>; run against Selenium Grid via SeleniumHQ Docker images</li>
+          <li>Build Ubuntu staging hosts using <b>Docker</b> &ndash; used as internal testing/hosting environment</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Jan 2015 &ndash; Jun 2016</div>
+      <div class="exp-detail">
+        <div class="role">Senior .Net Developer, <a href="https://fpt-software.com">FPT Software</a></div>
+        <p>Take part in outsourcing projects that work with customer from Texas USA. Develop web application as requirement of a customer in Paris, France. Technology in all is to use ASP.Net MVC 4.</p>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Dec 2012 &ndash; Dec 2014</div>
+      <div class="exp-detail">
+        <div class="role">.Net Developer, <a href="#">Contemi Vietnam</a></div>
+        <p>Researching &amp; coding with the latest .Net technologies at the time i.e. WPF, ASP.Net MVC 3. Working under agile SCRUM project management and the western working culture.</p>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-date">Sep 2004 &ndash; Dec 2010</div>
+      <div class="exp-detail">
+        <div class="role">Lecturer, <a href="https://hcmus.edu.vn">University of Science of HCMC</a></div>
+        <p><b>Teaching courses</b> such as 1) <b>Database Management System</b> using MSSQL Server and 2) Data Structure and Algorithm. Developing teaching tools using Windows Form C# .Net.</p>
+        <p>Research Intern at I2R, <b>A*star, Singapore</b> from 2007 to 2008.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION BACKGROUND -->
+  <div class="section">
+    <div class="section-title">Education Background</div>
+
+    <div class="edu-row">
+      <div class="edu-date">2006 &ndash; 2009</div>
+      <div class="edu-detail">
+        <strong>University of Science of Ho Chi Minh City</strong><br>
+        Master Student
+      </div>
+    </div>
+
+    <div class="edu-row">
+      <div class="edu-date">2000 &ndash; 2004</div>
+      <div class="edu-detail">
+        <strong>University of Science of Ho Chi Minh City</strong><br>
+        Bachelor of Computer Science (ranking Excellent)
+      </div>
+    </div>
+
+    <div class="edu-row">
+      <div class="edu-date">1997 &ndash; 2000</div>
+      <div class="edu-detail">
+        <strong>High School for the Gifted, National University of Vietnam</strong><br>
+        (Tr&#432;&#7901;ng Ph&#7893; th&ocirc;ng N&#259;ng khi&#7871;u)<br>
+        High-school Diploma (ranking Good)<br>
+        National Computer Competition (Encouraging Prize, 1998)
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY SKILLS -->
+  <div class="section">
+    <div class="section-title">Key Skills</div>
+
+    <div class="skills-row">
+      <div class="skills-label">AI vibe-coding</div>
+      <div class="skills-detail">JetBrains Junie Agent, Claude Code Agent for vibe coding for accelerated coding delivery</div>
+    </div>
+
+    <div class="skills-row">
+      <div class="skills-label">Open-source stack</div>
+      <div class="skills-detail">
+        <p>Good <b>stackoverflow.com profile</b> as <b>26k-points</b> user, <b>3mil-users</b> reached, and among the <b>top5 Vietnamese</b></p>
+        <p><b>Python</b> stack on Ubuntu Server &ndash; Flask backend, Postgres/MySQL database as backend, Deploy app to the cloud via <b>GCP</b>, AWS, Automation web testing via <b>Python Selenium WebDriver</b></p>
+        <p><b>Postgres/MySQL</b> &ndash; Fluently working with database both with CLI client or GUI client. No problem with <b>complex SQL queries</b>. Automated restore/backup database via mysqldump</p>
+        <p>Subversion via git on <b>github</b>, <b>bitbucket</b>, <b>gitlab</b> etc.</p>
+      </div>
+    </div>
+
+    <div class="skills-row">
+      <div class="skills-label">Document &amp; Presentation</div>
+      <div class="skills-detail">
+        Proficient in using office software including MS Word, MS Excel, and MS PowerPoint.<br>
+        Good skills in snapshot annotation tools by combining Pinta, GIMP, and Shutter.
+      </div>
+    </div>
+
+    <div class="skills-row">
+      <div class="skills-label">Language skills</div>
+      <div class="skills-detail">
+        <p><b>TOEIC</b> certification 2015, grade 930, internal validation in FPT Software</p>
+        <p><b>TOEFL iBT</b> certification 2007, grade 86</p>
+        <p>Able to communicate in <b>English fluently</b> in speaking &amp; writing. I have no difficulty in reading as well as writing technical reports. I have worked with many outsourcing projects, meetings online and offline with western customers from France, Australia, UK, Singapore. I have joined lots of SCRUM daily standup meetings, and four to five SCRUM planning meetings with western customer.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- EXTRA CERTIFICATIONS -->
+  <div class="section">
+    <div class="section-title">Extra Certifications</div>
+    <ol class="cert-list">
+      <li>National Computer Competition (<b>Encouraging Prize, 1998</b>)</li>
+      <li>SCRUM certification, PSM I 2014</li>
+      <li>TOEIC certification 2015, grade 930, internal validation in FPT Software</li>
+      <li>TOEFL iBT certification 2007, grade 86</li>
+      <li>Office Computer Skills (excellent rank) &ndash; Computer Center of University of Education (2003)</li>
+    </ol>
+  </div>
+
+</body>
+</html>
